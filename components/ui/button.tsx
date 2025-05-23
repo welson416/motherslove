@@ -1,0 +1,1 @@
+export const Button = (props: any) => <button {...props} className={props.className}>{props.children}</button>;
